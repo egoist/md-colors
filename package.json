@@ -1,0 +1,15 @@
+{
+  "name": "@egoist/md-colors",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "email": "0x142857@gmail.com",
+    "name": "EGOIST"
+  },
+  "main": "colors.json",
+  "files": ["colors.json"],
+  "keywords": ["material", "material-ui", "material-design", "color", "colors", "palettes", "css"],
+  "license": "MIT"
+}
