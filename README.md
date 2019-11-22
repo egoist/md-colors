@@ -7,7 +7,7 @@ https://material.io/design/color/the-color-system.html
 This package actually only contains a [JSON file](./colors.json).
 
 ```bash
-yarn add @egoist/md-color --dev
+yarn add @egoist/md-colors --dev
 ```
 
 ## Usage
