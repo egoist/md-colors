@@ -9,7 +9,22 @@
     "name": "EGOIST"
   },
   "main": "colors.json",
-  "files": ["colors.json"],
-  "keywords": ["material", "material-ui", "material-design", "color", "colors", "palettes", "css"],
-  "license": "MIT"
+  "types": "index.d.ts",
+  "files": [
+    "colors.json",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "material",
+    "material-ui",
+    "material-design",
+    "color",
+    "colors",
+    "palettes",
+    "css"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }

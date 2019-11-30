@@ -32,6 +32,18 @@ module.exports = {
 
 Color names are camelCased, e.g. `deepPurple` and `lightBlue`, you can reference one via `text-lightBlue-200` in TailwindCSS.
 
+### TypeScript support
+
+To load this module in a `.ts` file:
+
+```ts
+// Individual imports
+import { red, green } from '@egoist/md-colors'
+
+// Or load everything
+import * as colors from '@egoist/md-colors'
+```
+
 ## License
 
 MIT.
