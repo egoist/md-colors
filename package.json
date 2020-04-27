@@ -1,10 +1,6 @@
 {
   "name": "@egoist/md-colors",
   "version": "1.2.1",
-  "scripts": {
-    "build": "node typegen",
-    "prepublishOnly": "npm run build"
-  },
   "publishConfig": {
     "access": "public"
   },
