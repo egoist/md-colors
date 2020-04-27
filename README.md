@@ -17,15 +17,12 @@ yarn add @egoist/md-colors --dev
 In your `tailwind.config.js`:
 
 ```js
-const mdColors = require('@egoist/md-colors')
+const colors = require('@egoist/md-colors')
 
 module.exports = {
   theme: {
-    // Override default colors
-    colors: {
-      transparent: 'transparent',
-      ...mdColors
-    }
+    // Override default colors here
+    colors
   }
 }
 ```
