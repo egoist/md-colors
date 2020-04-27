@@ -10,6 +10,10 @@
   },
   "main": "colors.json",
   "types": "index.d.ts",
+  "scripts": {
+    "build": "node typegen",
+    "prepublishOnly": "npm run build"
+  },
   "files": [
     "colors.json",
     "index.d.ts"
